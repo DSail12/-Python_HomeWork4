@@ -5,7 +5,7 @@
 
 import random
 
-k = int (input ("Введите пожалуйста значение больще единицы: "))
+k = int (input ("Введите пожалуйста значение больше единицы: "))
 coefficient = []
 for i in range (k):
     coefficient.append (random.randint (0,100))
