@@ -5,6 +5,6 @@
 from cmath import pi
 import math
 
-d = int(input("Введите количество знаков после запятой:\n"))
+d = int(input("Введите количество знаков после запятой: \n"))
 resultat = math.floor(pi) + float ( str (pi % 1)[:2+d])
 print(resultat)

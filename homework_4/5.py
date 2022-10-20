@@ -95,4 +95,4 @@ else:
 write_file("final_file for exercie_5.txt", create_str(lst_new))
 with open("final_file..txt", 'r') as data:
     st3 = data.readlines()
-print(f"Сумма многочленов равна:  {st3}")
+print(f"Сумма многочленов равна: {st3}")
